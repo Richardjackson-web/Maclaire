@@ -85,3 +85,30 @@ li{
     background-color: black;
     color: #fff;
 } */
+.block{
+    border: 2px solid black;
+    border-radius: 5px;
+    align-content: space-around !important;
+}
+li{
+    color: #fff;
+}
+.input-icons i {
+    position: absolute;
+}
+  
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+  
+.icon {
+    padding: 10px;
+    min-width: 40px;
+}
+  
+.input-field {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}

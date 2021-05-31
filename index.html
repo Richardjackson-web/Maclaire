@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" crossorigin="anonymous" />
@@ -47,86 +48,73 @@
 
 
       <!-- Values  -->
-      <!-- <section style="background-color: rgb(154, 159, 159);">
-          <div class="pt-2 pb-5 ml-5">
 
-             <div class="text-center"> 
-                <p><b class="value">Our Facilities</b></p>
-             </div>
+        <section style="background-color: rgb(154, 159, 159);">
+          <section class="container text-center pt-3" style="background-color: rgb(154, 159, 159);">
 
-             <div style="display: inline;">
-              <i class="fas fa-utensils"></i>
-              <p>Restaurant</p>
-            </div>
-           
-            <div style="display: inline;">
-              <i class="fas fa-wine-glass-alt"></i>
-              <p>Bar/Lounge</p>
-            </div>
-         
-            <i class="fas fa-user-secret"></i>
-              <p>Security</p>
-        
-            <i class="fas fa-wifi"></i>
-              <p>Wired Internet</p>
-         
-            <i class="fas fa-star"></i>
-              <p>Air Conditioning</p>
-          
+            <div> 
+              <p><b class="value">Our Facilities</b></p>
+           </div>
+  
+            <div class="row">
+  
+               <div class="col-md-2 block pt-2 ml-2 mb-1">
+                <i style="color: rgb(65, 65, 21);" class="fas fa-utensils"></i>
+                <p>Restaurant</p>
+              </div>
              
-      
-                    
-                        <i class="fas fa-lightbulb"></i>
-                          <p>24 Electricity</p>
-                     
-                        <i class="fas fa-parking"></i>
-                          <p>Adequate Parking</p>
-                      
-                        <i class="fas fa-tshirt"></i>
-                          <p>Dry Cleaning</p>
-                     
-                        <i class="fas fa-broom"></i>
-                          <p>House Keeping</p>
-                     
-                        <i class="fas fa-toilet-paper"></i>
-                          <p>Toiletries</p>
-                     
-                </div> -->
-
-               
-
-
-
-
-              <!-- <div class="text-center pb-2">
-                <button type="button" class="btn btn-primary book" data-toggle="button" aria-pressed="false">
-                  KNOW MORE
-                </button>
-              </div> -->
-          </div>
-      </section>
-
-      <section>
-        <div class="facilities">
-            <i class="fas fa-utensils"></i>
-            
-            <i class="fas fa-wine-glass-alt"></i>
-          
-          <i class="fas fa-user-secret"></i>
+              <div class="col-md-2 block pt-2 ml-2 mb-1">
+                <i style="color: maroon;" class="fas fa-wine-glass-alt"></i>
+                <p>Bar/Lounge</p>
+              </div>
            
-          <i class="fas fa-wifi"></i>
+              <div class="col-md-2 block pt-2 ml-2 mb-1">
+                <i class="fas fa-star"></i>
+                  <p>Air Conditioning</p>
+                </div> 
+          
+            <div class="col-md-2 block pt-2 ml-2 mb-1">
+              <i style="color: blue;" class="fas fa-wifi"></i>
+                <p>Wired Internet</p>
+              </div>
+           
+              <div class="col-md-2 block pt-2 ml-2 mb-1">
+                <i style="color: black;" class="fas fa-user-secret"></i>
+                  <p>Security</p>
+                </div>
+            </div>
+  
+            <div class="row pt-1 pb-2">
+              <div class="col-md-2 block pt-2 ml-2 mb-1">
+               <i style="color: blue;" class="fas fa-lightbulb"></i>
+               <p>Electricity</p>
+             </div>
             
-          <i class="fas fa-star"></i>
-        </div>
-       
-        <div style="display: inline-block">
-          <p>Restaurant</p>
-          <p>Bar/Lounge</p>
-           <p>Security</p>
-          <p>Wired Internet</p>
-          <p>Wired Internet</p>
-        </div>
-      </section>
+             <div class="col-md-2 block pt-2 ml-2 mb-1">
+               <i style="color: yellow;" class="fas fa-parking"></i>
+               <p>Adequate Parking</p>
+             </div>
+          
+           <div class="col-md-2 block pt-2 ml-2 mb-1">
+             <i style="color: white;" class="fas fa-tshirt"></i>
+               <p>Dry Cleaning</p>
+             </div>
+         
+           <div class="col-md-2 block pt-2 ml-2 mb-1">
+             <i class="fas fa-broom"></i>
+               <p>House Keeping</p>
+             </div>
+          
+           <div class="col-md-2 block pt-2 ml-2 mb-1">
+             <i style="color: brown;" class="fas fa-toilet-paper"></i>
+               <p>Toiletries</p>
+             </div>
+           </div>
+          
+        </section>
+        </section>
+
+
 
 
       <!-- More Details -->
@@ -163,10 +151,13 @@
     </div>
       </section>
 
+
+
       <!-- Carousel -->
 
       <section>
-        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <div>
+          <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
               <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -204,6 +195,7 @@
               <span class="sr-only">Next</span>
             </a>
           </div>
+        </div>
       </section>
 
         <!-- Room Details -->
@@ -211,87 +203,58 @@
         <section style="background-color: #000;"> 
           <div class="container pt-3">
             <div class="row text-white">
-              <div class="col-md-3 text-center">
-                <h3>STANDARD ROOM</h3>
-                <p>N10,000</p>
-                <small>Weekened - ₦5,000</small>
-                <p>Per Night</p>
+              <div class="col-md-2 text-center">
+                <h6>STANDARD ROOM</h6>
+                <small>₦5,600</small>
+                <small>avg/night</small>
 
-                <p>Our spacious standard <br>
-                  rooms offer the comfort of<br>
-                   a contemporary design. <br>
-                   Guests can choose between a twin<br>
-                   or king-sized bed. The room has air<br>
-                    conditioned rooms, <br>
-                   each with a flat screen TV,<br>
-                    fridge and an en suite <br>
-                    bathroom.</p>
                 <button type="button" class="btn btn-primary book" data-toggle="button" aria-pressed="false">
                   BOOK NOW
                 </button>
               </div>
-              <div class="col-md-3 text-center">
-                <h3>CLASSIC ROOM</h3>
-                <p>N13,000</p>
-                <small>Weekend - ₦6,500</small>
-                <p>Per Night</p>
-
-                <p>The room has air <br>
-                  conditioned rooms, each<br>
-                   fitted with flat screen TV, <br>
-                   a fridge and an en suite<br>
-                    bathroom and a king size <br>
-                    bed. Guests can personalise their room<br>
-                     temperature with the state-<br>
-                     of-the-art room controls <br>
-                     and audio-visual <br>
-                     entertainment in each <br>
-                     room .</p>
+              <div class="col-md-2 text-center">
+                <h5>DELUXE ROOM</h5>
+                <small>₦5,600</small>
+                <small>avg/night</small>
                 <button type="button" class="btn btn-primary book" data-toggle="button" aria-pressed="false">
                   BOOK NOW
                 </button>
               </div>
-              <div class="col-md-3 text-center">
-                <h3>MACAIRE DOUBLE</h3>
-                <p>N15,000</p>
-                <small>Weekened - ₦7,500</small>
-                <p>Per Night</p>
-
-                <p>This room is tastefully <br>
-                  furnished and luxuriously<br>
-                   finished. It is equipped <br>
-                   with a marble bathroom <br>
-                   and ample closet space <br>
-                   Each room offers the latest <br>
-                   audio-visual technology, <br>
-                   high-speed complimentary<br>
-                    wireless broadband and <br>
-                    access to the executive <br>
-                    lounge.</p>
+              <div class="col-md-2 text-center">
+                <h5>ROYAL ROOM</h5>
+                <small>₦5,600</small>
+                <small>avg/night</small>
                 <button type="button" class="btn btn-primary book" data-toggle="button" aria-pressed="false">
                   BOOK NOW
                 </button>
               </div>
-              <div class="col-md-3 text-center">
-                <h3>MARCELLA SINGLE</h3>
-                <p>N20,000</p>
-                <small>Weekened - ₦10,000</small>
-                <p>Per Night</p>
-
-                <p>The spacious ambassador <br>
-                  suite is perfect for leisure <br>
-                  or business travellers.<br>
-                   The room is equipped with <br>
-                   complimentary wireless<br>
-                    high-speed internet, a <br>
-                    coffee making machine, <br>
-                    study table, executive <br>
-                    lounge chairs, a mini bar <br>
-                    and refrigerator.</p>
+              <div class="col-md-2 text-center">
+                <h6>EXECUTIVE ROOM</h6>
+                <small>₦5,600</small>
+                <small>avg/night</small>
                 <button type="button" class="btn btn-primary book" data-toggle="button" aria-pressed="false">
                   BOOK NOW
                 </button>
               </div>
+
+              <div class="col-md-2 text-center">
+                <h5>SUPERIOR SUITE</h5>
+                <small>₦5,600</small>
+                <small>avg/night</small>
+                <button type="button" class="btn btn-primary book" data-toggle="button" aria-pressed="false">
+                  BOOK NOW
+                </button>
+              </div>
+
+              <div class="col-md-2 text-center">
+                <h6>EXCLUSIVE SUITE</h6 >
+                <small>₦5,600</small>
+                <small>avg/night</small>
+                <button type="button" class="btn btn-primary book" data-toggle="button" aria-pressed="false">
+                  BOOK NOW
+                </button>
+              </div>
+
             </div>
           </div>
         </section>
@@ -302,16 +265,69 @@
           <div class="container  pt-5">
             <div class="row">
               <div class="col-md-6">
-                <h3>Places Around Macaire Hotel</h3>
-                <p>Standard amenities are provided for guests at the Macaire Hotel and Resorts include: a conference hall with facilities, an outdoor pool, bar/lounge with a variety of beverages on offer, event hall, outdoor pool bar with accompanying sit out.</p>
+                <h4>Interesting Places Around Villa View Hotels Ltd</h4>
+                <ul>
+                  <li>Ibom Tropicana entertainment centre</li>
+                  <li>Aroma House</li>
+                  <li>Sun centre</li>
+                  <li>Chop Shop Restaurant</li>
+                  <li>Country style</li>
+                </ul>
               </div>
               <div class="col-md-6">
-                <p><b>10-Minutes Drive</b></p>
-                <p><b>Ikot Ekpene Plaza -</b> The plaza consists of a long tree lined promenade with two outdoor dining areas either side of an exciting central fountain and is a venue for outdoor entertainment along with a large outdoor viewing screen to show soccer games and films. A children’s play area adds to the leisure provision for all of the town’s younger age groups. Ancillary facilities include a maintenance building, car park, public toilets and an access footbridge. It is a wonderful sight to behold and its 10 Minutes drive from Macaire Hotel.</p>
-              
-                <p><b>11-Minutes Drive</b></p>
-                <p><b>Ikot Ekpene Township Stadium - </b>The 5,000 capacity township stadium in Ikot Ekpene District is located in the heart of the city with state of the art facilities and is a great for recreational and competitive sports as well.</p>
+                <p><b>Driving Instructions  </b></p>
+                <p>Find the quickest route to this hotel's address. We'll send you directions to Villa View Hotels Ltd - 
+                  just enter your email address or phone number below:</p>
+                  <div style="max-width:400px;margin:auto">
+                    <div class="input-icons">
+                        <i style="color: #000;" class="fa fa-user icon"></i>
+                        <input class="input-field" type="text">
+                    </div>
               </div>
+                </div>
+            </div>
+          </div>
+        </section>
+
+
+        <!-- Book Rooms -->
+
+        <section class="container">
+          <div class="row">
+            <div class="col-md-1">
+
+            </div>
+            <div class="col-md-5">
+               <!-- Book Room -->
+                <form action="">
+
+                <h5><b>Book rooms in Villa View Hotels Ltd online.</b></h5>
+                <p>Check In - Check Out&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Adults</p>
+                <input type="date"> <input type="number">
+
+                <p class="mt-3">Enter your phone number to start the booking process</p>
+                <input type="text" placeholder="+234">
+                </form>
+            
+            </div>
+
+            <div class="col-md-5">
+              
+               
+            <!-- Terms And Conditions -->
+
+            <h5><b><u>Terms and Conditions</u></b></h5>
+            <p>Check in: From 2:00 pm with ID card</p>
+            <p>Check out: By 12:00pm</p>
+            <p>Check out: By 12:00pm</p>
+            <p>Payment: Cash is accepted.</p>
+            <p>Cancellation: Free cancellation across all rooms <br>
+               except Standard, Royal and Deluxe room with a non-refundable fee.</p>
+            <p>All children under age 17 are allowed. </p>
+            </div>
+            <div class="col-md-1">
+
             </div>
           </div>
         </section>
