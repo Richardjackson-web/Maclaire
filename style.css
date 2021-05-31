@@ -2,6 +2,22 @@
     .move{
         margin-left: 1rem !important;
     }
+    .view{
+        font-size: 1.4rem;
+    }
+    .macaire{
+        font-size: 1.7rem !important;
+    }
+    .best{
+        font-size: 1rem !important;
+    }
+    .ltd{
+        font-size: 0.8rem;
+    }
+    .resort{
+        border-left: none !important;
+    }
+
 }
 
 .container1{
@@ -15,7 +31,7 @@ main{
 }
 .sec1{
     background-image: url(https://media.hotels.ng/img/h21586/562/422/b1/villa-view-hotels-ltd-21586-13.jpg);
-    background-color: rgb(104, 103, 103);
+    background-color: rgb(34, 34, 34);
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,9 +52,10 @@ li{
 .more{
     align-self: center !important;
 }
-.resort{
+/* .resort{
     border-left: 5px solid rgb(85, 112, 248);
-}
+}*/
+
 .macaire{
     font-size: 3.5rem;
 }
@@ -49,7 +66,7 @@ li{
     border-radius: 1.5rem !important;
 }
 .value{
-    font-size: 3rem;
+    font-size: 1.5rem;
 }
 .luxury{
     background-color: #232323;
@@ -64,3 +81,7 @@ li{
 .mission{
     background-color:  #000 !important;
 }
+/* i{
+    background-color: black;
+    color: #fff;
+} */
