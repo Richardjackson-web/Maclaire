@@ -17,8 +17,39 @@
     .resort{
         border-left: none !important;
     }
+    .space{
+        padding-right: 1rem !important;
+    }
+    .carousel .carousel-item {
+        height: 200px !important;
+      }
+      
+    .carousel-item img {
+          position: absolute;
+          object-fit:cover;
+          top: 0;
+          left: 0;
+          min-height: 200px !important;
+        }
+        .air{
+            margin-left: 1rem;
+        }
+        .bar{
+            margin-left: rem;
+        }
 
 }
+
+/* @media only screen and (min-width: 768px){
+    .driving{
+        position: relative;
+    }
+    .driving2{
+        position: absolute;
+        top: -35rem;
+        left: 3rem;
+    }
+} */
 
 .container1{
     background-color: #000;
@@ -85,14 +116,6 @@ li{
     background-color: black;
     color: #fff;
 } */
-.block{
-    border: 2px solid black;
-    border-radius: 5px;
-    align-content: space-around !important;
-}
-li{
-    color: #fff;
-}
 .input-icons i {
     position: absolute;
 }
@@ -111,4 +134,38 @@ li{
     width: 100%;
     padding: 10px;
     text-align: center;
+}
+.space{
+    padding-right: 2rem;
+}
+.carousel .carousel-item {
+    height: 500px;
+  }
+  
+.carousel-item img {
+      position: absolute;
+      object-fit:cover;
+      top: 0;
+      left: 0;
+      min-height: 500px;
+    }
+.roommain{
+    border: 1px solid #000;
+    padding: 1rem 0.4rem 0.4rem 0.4rem;
+}
+.room{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.frequent{
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+.frequently{
+    padding-top: 17px;
+}
+.bord{
+    border:1px solid #000;
+    padding: 15px;
+    border-radius: 7px;
 }
